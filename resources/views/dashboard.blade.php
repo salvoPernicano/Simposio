@@ -10,6 +10,7 @@
             <div class="overflow-hidden bg-white shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!") }}
+                    <a href="{{ route('talks.index') }}">Show talks</a>
                 </div>
             </div>
         </div>
